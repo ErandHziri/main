@@ -82,6 +82,7 @@ form button:hover {
 
 
 @media (max-width: 768px) {
+    
     .hero {
         padding: 2rem 0;
     }
@@ -134,3 +135,109 @@ form button:hover {
     line-height: 1.6;
     text-align: justify;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .car-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .car {
+    text-align: center;
+    position: relative;
+  }
+
+  .car img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .car img:hover {
+    transform: scale(1.05);
+  }
+
+ 
+  .car input[type="checkbox"] {
+    display: none;
+  }
+
+  
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .car input[type="checkbox"]:checked + .modal {
+    display: flex; 
+  }
+ .modal-content {
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    position: relative;
+    text-align: center;
+  }
+
+  .modal-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #aaa;
+    cursor: pointer;
+  }
+
+  .close:hover {
+    color: black;
+  }
+
+
+  .car-info {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .car-info h3 {
+    margin-bottom: 10px;
+  }
+
+
+  .car-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .car{
+    height:450px;
+    width:450px;
+  }

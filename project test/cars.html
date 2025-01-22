@@ -17,46 +17,119 @@
             </ul>
         </nav>
     </header>
-    
-    <section class="cars-list">
-        <h1>Available Cars</h1>
-        <table>
-            <thead>
-                <tr>
-                  
-                    <th>Model</th>
-                    <th>Price</th>
-                    <th>Year</th>
-                    <th>Color</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Honda Accord</td>
-                    <td>$20,000</td>
-                    <td>2023</td>
-                    <td>Red</td>
-                </tr>
-                <tr>
-                    <td>Chevrolet Malibu</td>
-                    <td>$18,000</td>
-                    <td>2022</td>
-                    <td>Blue</td>
-                </tr>
-                <tr>
-                    <td>BMW 320i</td>
-                    <td>$30,000</td>
-                    <td>2021</td>
-                    <td>Black</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
+   
 
-    <footer>
-        <p>&copy; 2025 Car Shop. All rights reserved.</p>
-    </footer>
 
-    <script src="scripts/app.js"></script>
+    <div class="car-gallery">
+        <div class="car" data-id="car1">
+          <img src="https://hips.hearstapps.com/hmg-prod/images/2021-audi-a4-45-tfsi-quattro-106-1607927016.jpg?crop=0.587xw:0.661xh;0.179xw,0.276xh&resize=768:*" alt="Car 1">
+          <h3>2021 Audi A4</h3>
+          <p>$40,000</p>
+        </div>
+        <div class="car" data-id="car2">
+          <img src="https://media.ed.edmunds-media.com/bmw/m3/2022/oem/2022_bmw_m3_sedan_competition_fq_oem_1_600.jpg" alt="Car 2">
+          <h3>2022 BMW M3</h3>
+          <p>$70,000</p>
+        </div>
+        <div class="car" data-id="car3">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjE3-NRfGtnSBm37FnJBcET7g9duplV9wixQ&s" alt="Car 3">
+          <h3>2020 Tesla Model S</h3>
+          <p>$90,000</p>
+        </div>
+        <div class="car" data-id="car4">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWn2-g5rt91K0XUp1nqGpP5_p5gLzWTDiq3A&s8" alt="Car 4">
+          <h3>2019 Mercedes-Benz C-Class</h3>
+          <p>$50,000</p>
+        </div>
+        <div class="car" data-id="car5">
+          <img src="https://nextgen-cella.cdn.dealersolutions.com.au/20240812/77385f3e86d4d6c8946e37e4eac175c0.jpg" alt="Car 5">
+          <h3>2023 Toyota Camry</h3>
+          <p>$35,000</p>
+        </div>
+        <div class="car" data-id="car6">
+          <img src="https://images.ctfassets.net/c9t6u0qhbv9e/2018HondaCivicHatchbackPreviewsummary/2a30e170318afcba8766e1c67fea6ca5/2018_Honda_Civic_Hatchback_Preview_summaryImage.jpeg" alt="Car 6">
+          <h3>2018 Honda Civic</h3>
+          <p>$22,000</p>
+        </div>
+        <div class="car" data-id="car7">
+          <img src="https://hips.hearstapps.com/hmg-prod/images/2022-ford-mustang-stealth-edition-02-1633475393.jpg?crop=0.671xw:1.00xh;0.125xw,0&resize=1200:*" alt="Car 7">
+          <h3>2022 Ford Mustang</h3>
+          <p>$55,000</p>
+        </div>
+        <div class="car" data-id="car8">
+          <img src="https://cdn.motor1.com/images/mgl/2P8bx/s3/2020-chevrolet-corvette-stingray-1lt-exterior-front-quarter.jpg" alt="Car 8">
+          <h3>2021 Chevrolet Corvette</h3>
+          <p>$65,000</p>
+        </div>
+        <div class="car" data-id="car9">
+          <img src="https://hips.hearstapps.com/hmg-prod/images/2021-audi-q7-mmp-1-1591218923.jpg?crop=0.798xw:0.673xh;0.0417xw,0.327xh&resize=2048:*" alt="Car 9">
+          <h3>2021 Audi Q7</h3>
+          <p>$80,000</p>
+        </div>
+        <div class="car" data-id="car10">
+          <img src="https://imageio.forbes.com/specials-images/imageserve/5db8ac181a84270007892480/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds" alt="Car 10">
+          <h3>2020 Nissan Altima</h3>
+          <p>$28,000</p>
+        </div>
+        <div class="car" data-id="car11">
+          <img src="https://media.ed.edmunds-media.com/lexus/rx-350/2021/oem/2021_lexus_rx-350_4dr-suv_f-sport_fq_oem_1_1600.jpg"alt="Car 11">
+          <h3>2021 Lexus RX 350</h3>
+          <p>$55,000</p>
+        </div>
+        <div class="car" data-id="car12">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTpx3Huo-mSPg3YTf9FUEQD3-DCBVu8VLi_w&s" alt="Car 12">
+          <h3>2022 Jaguar F-Type</h3>
+          <p>$75,000</p>
+        </div>
+        <div class="car" data-id="car13">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtPi00O9E1bT7Kf4XKU-IEtofNrLVJJljvEQ&s" alt="Car 13">
+          <h3>2020 Porsche 911</h3>
+          <p>$95,000</p>
+        </div>
+        <div class="car" data-id="car14">
+          <img src="https://www.carpro.com/hubfs/car-review-blog/review_337312_1.jpg" alt="Car 14">
+          <h3>2021 Honda Accord</h3>
+          <p>$30,000</p>
+        </div>
+        <div class="car" data-id="car15">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAHGYxIkY_4Gy6UV_Q5OHCSqWR3-Pw1yhoVQ&s" alt="Car 15">
+          <h3>2022 Kia Stinger</h3>
+          <p>$45,000</p>
+        </div>
+        <div class="car" data-id="car16">
+          <img src="https://www.autotrader.com/wp-content/uploads/2022/03/2021-subaru-outback-touring-xt.jpg?quality=75&strip=all" alt="Car 16">
+          <h3>2021 Subaru Outback</h3>
+          <p>$38,000</p>
+        </div>
+        <div class="car" data-id="car17">
+          <img src="https://media.ed.edmunds-media.com/hyundai/sonata/2021/oem/2021_hyundai_sonata_sedan_limited_fq_oem_1_1600.jpg" alt="Car 17">
+          <h3>2021 Hyundai Sonata</h3>
+          <p>$32,000</p>
+        </div>
+        <div class="car" data-id="car18">
+          <img src="https://static.designboom.com/wp-content/uploads/2020/05/bmw-5-series-sedan-touring-hybrid-designboom11.jpg" alt="Car 18">
+          <h3>2020 BMW 5 Series</h3>
+          <p>$60,000</p>
+        </div>
+        <div class="car" data-id="car19">
+          <img src="https://images.carexpert.com.au/app/uploads/2021/07/volvo-xc90-price-specs-8.png" alt="Car 19">
+          <h3>2022 Volvo XC90</h3>
+          <p>$70,000</p>
+        </div>
+        <div class="car" data-id="car20">
+          <img src="https://media.ed.edmunds-media.com/ford/f-150/2023/oem/2023_ford_f-150_crew-cab-pickup_lariat_fq_oem_1_1280.jpg" alt="Car 20">
+          <h3>2023 Ford F-150</h3>
+          <p>$50,000</p>
+        </div>
+        <div class="car" data-id="car21">
+            <img src="https://bringatrailer.com/wp-content/uploads/2024/06/2015_mercedes-benz_cls63-amg-s_n5a2594-88059.jpg" alt="Car 21">
+            <h3>Mercedes cls 63</h3>
+            <p>$25,000</p>
+          </div>
+      </div>
+      <script src="script.js"></script>
+    </body>
+    </html>
+      
 </body>
 </html>

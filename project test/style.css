@@ -211,7 +211,7 @@ body {
     right: 10px;
     font-size: 30px;
     font-weight: bold;
-    color: #aaa;
+    color: black;
     cursor: pointer;
   }
 
@@ -241,3 +241,18 @@ body {
     height:450px;
     width:450px;
   }
+
+  .hero h1, .hero p {
+    color: black;
+}
+
+.social-links a {
+  text-decoration: none;
+  margin-right: 20px; 
+  font-size: 30px; 
+  color: #333; /
+}
+
+.social-links a:hover {
+  color: #0073e6; 
+}

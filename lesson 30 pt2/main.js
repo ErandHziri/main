@@ -28,7 +28,7 @@ var oneSecond=1000;
 setInterval(showCurrentTime,oneSecond);
 
 function changeImage(){
- var time=new Date().getHours;
+ var time=new Date().getHours();
  console.log(time);
  
  var image="ds_clock.png";
